@@ -1,4 +1,4 @@
---QUERIESFOR TABLEAU VISUALIZATION
+--QUERIES FOR TABLEAU VISUALIZATION
 --Slight differences in the numbers for query 1 and 1B.
 --1. TotalDeath Percentage
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
